@@ -1,0 +1,80 @@
+#gamesboard-container {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.game-board {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.block {
+  width: 20px;
+  height: 20px;
+}
+.option-container {
+  width: 500px;
+  height: 60px;
+  margin: 30px 0;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+}
+.destroyer {
+  background-color: rgb(217, 0, 0);
+}
+.submarine {
+  background-color: green;
+}
+.cruiser {
+  background-color: aqua;
+}
+.battleship {
+  background-color: orangered;
+}
+.carrier {
+  background-color: blue;
+}
+.destroyer-preview {
+  width: 20px;
+  height: 10px;
+  margin: 3px;
+}
+.submarine-preview {
+  width: 30px;
+  height: 10px;
+  margin: 3px;
+}
+.cruiser-preview {
+  width: 30px;
+  height: 10px;
+  margin: 3px;
+}
+.battleship-preview {
+  width: 40px;
+  height: 10px;
+  margin: 3px;
+}
+.carrier-preview {
+  width: 50px;
+  height: 10px;
+  margin: 3px;
+}
+.hover {
+  background-color: #b55a30;
+}
+
+#computer .destroyer,
+#computer .submarine,
+#computer .cruiser,
+#computer .battleship,
+#computer .carrier {
+  background-color: RGB(214, 80, 118);
+}
+.boom {
+  background-color: #cd212a !important;
+}
+.empty {
+  background-color: #77212e !important;
+}
